@@ -1,0 +1,149 @@
+---
+Author: Lewi Belayneh Haile
+Genere: Research
+tags:
+  - farm
+  - agriculture
+  - research
+  - IoT
+---
+## Agricultural Overview
+- 37% of economic output in 2021
+- 80% of exports
+- 37.64% of GDP in 2022
+## Land Overview
+- 38.5mill hectares of agricultural land in Ethiopia
+	- 16mill arable (14.5% of total land)
+		- 96% in small scale farmers
+			- 57% hold 0.96 to 1.2 hectares
+		- 4% State and Producers Cooperatives
+	- 20mill permanent pastures
+## Yield Overview
+- PM plans for 80mill tons of grain in 2023/24
+- 2023/24 wheat production down by 5% from previous years
+	- Despite higher trends across 10 years
+- 2022 wheat yield:
+	- 3.0435 tons per hectare
+		- Up from 1.3874 tons per hectare from 2003
+- Crop yields against water-limited potentials
+	- Wheat: 26.8%
+	- Maize: 19.7%
+	- Sorghum: 29.3%
+	- Common Bean: 35.5%
+	- [Yield Gaps of Major Cereal and Grain Legume Crops in Ethiopia: A Review by Kiflemariam Yehuala and others](https://www.mdpi.com/1888362)
+
+## Current Situation
+- Since 1950, crop varieties released
+	- 501 cereal
+	- 277 grain legumes
+- According to [YieldGap.org](https://yieldgap.org) [tonnes/hectare]
+	- Wheat (2005-2017) - 26.8%
+		- Yield Potential: 9.6
+		- Water -limited Yield Potential: 8.3
+		- Actual Yield: 2.2
+	- Common Bean (2003-2012) - 35.5%
+		- Yield Potential: 3.4
+		- Water -limited Yield Potential: 3.4
+		- Actual Yield: 1.2
+- Fertilizer and Variety crops Utilization
+	- Wheat
+		- Improved variety: 43%
+		- N: 91%
+		- P2O5: 63%
+		- N + P2O5: 176%
+	- Common Bean
+		- Improved variety: 80%
+		- N: 68%
+		- P2O5: 60%
+		- N + P2O5: 107%
+## Limitations
+- Preference for farmer selected variety
+- Low adoption of newer, better tech
+	- Production
+		- modern methods
+		- modern vareity
+- governing traits for farmer choice
+	- Wheat
+		- Disease resistance
+		- Drought resistance
+		- Earliness
+	- Common Bean
+		- Seed size
+		- Earliness
+		- Drought resistance
+		- Disease resistant
+
+## Benefits
+- Use of fertilizers showed trends of 2-3 fold yield
+- Improved variety crops showed 24 - 160% increase in yield 
+- More than just improved yield
+	- Data about land state:
+		- Fertility
+		- Age
+		- Productivity of soil 
+	- Utilization of land without needing to add more land to capacity
+
+## Implementation
+### Overview
+- IoT based data collection and aggregation
+	- multiple sensor array feeds
+	- geo-location and geo-fenced data
+- Data aggregation to feed model design, training and refinement
+- Model to practical implementation
+- Review and Refine
+
+### Specifics
+- IoT cluster design and deployment
+	- Sensor arrays
+	- Relays
+	- Geo-fenced location
+- Drone and human fed point data
+- Control and normal agricultural sites
+	- Control will be the ideal or lab scenario
+		- Designated soil mineral, pH levels, salinity and more
+	- Normal fields will be the natural implementation of improved methods by regular farmers
+- Model Design, Training and Refining
+	- Design an ideal model structure
+		- Model frame
+		- Data structure
+		- Data input and output pipeline framework
+		- Training capacity requirements and preparations
+	- Training model
+		- Initiate data pipeline to aggregate data towards a cleaner
+		- Initialize training
+		- Data  Quality Control
+	- Refining model
+		- Check final output against design and requirements
+		- Retrain or Refine as needed
+- Test data output from model on control fields
+- Implement data output from model on Normal farm fields
+- Review and Refine
+
+## AIMS
+- Maximum utilization of land, water and human resources
+- Elevate human living standards among farmers
+	- By extension others in related fields of work
+- Building basis for a partially or fully automated agricultural work
+	- production
+	- processing
+	- distribution
+	- governance
+- Build basis 
+	- for 
+		- interconnected
+		- centralized 
+	- systems for 
+		- production
+		- harvest
+		- and consumption
+- Extend land lifespan and productivity
+- Effective utilization of resources leading to lessened demand for more land to cultivate 
+	- Will lead to more land going to industrialization, manufacturing and natural preserves	
+
+## Sources
+- [USDA Foreign Agriculture Services](https://ipad.fas.usda.gov/countrysummary/Default.aspx?id=ET)
+- [The Global Economy](https://www.theglobaleconomy.com/Ethiopia/forest_area/)
+- [MDPI](https://www.mdpi.com/2073-4395/12/10/2528)
+- [US International Trade Administration](https://www.trade.gov/country-commercial-guides/ethiopia-agricultural-sectors)
+- [Ethiopian Agricultural Transformation Agency](https://www.ata.gov.et/)
+- [Ethiopian ATA 2021 Report](https://drive.google.com/file/d/1KfTqqdA9iu0PsGpqM54K1O8roeooqgjH/view?usp=drivesdk)
